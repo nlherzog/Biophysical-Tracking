@@ -2,7 +2,8 @@
 
 This is a repository of all code used for the analysis in Herzog et. al 2025 manuscript titled "HSV-1 fluidizes the nucleus enabling condensate formation"
 
-List of contents and purposes:
+## List of contents and purposes:
+### Image J macros
   
   batch-tracking is an ImageJ macro used for detecting and tracking nucGEMs
   
@@ -13,9 +14,9 @@ List of contents and purposes:
   extract_slices is an ImageJ macro used for pulling the pre-TFH treatment slice from the artificial condensate timelapse movies
   
   
-  TrackMate_Threshhold_Batch is an ImageJ macro in Jython used for detecting and tracking artificial condensates
+  TrackMate_Threshhold_Batch is an ImageJ macro (WRITTEN IN JYTHON) used for detecting and tracking artificial condensates
 
-  
+ ### Python scripts 
   alpha-logD_1anova is a python script used to run one-way ANOVA statistical analysis on alpha vs. logD data
   
   alpha-logD_ttest is a python script used to run Welch's t-test on alpha vs. logD data
@@ -36,6 +37,7 @@ List of contents and purposes:
   
   timesteps_MaxProj is a python script used to create 20 Hz, 10 Hz, and 4 Hz movies from 40 Hz movies for Halo-H2A tracking
 
+  ### Jupyter notebooks
   
   Artificial_Condensates is a python-based Jupyter notebook for analyzing each individual artificial condensate experiment
   
