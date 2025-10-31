@@ -45,4 +45,12 @@ This is a repository of all code used for the analysis in Herzog et. al 2025 man
   
   Graphing_Excel_Data is a python-based Jupyter notebook for analyzing pooled vRC formation from foci-counting outputs 
   
+  ### Matlab scripts
   
+  Advanced_Microrheology_analyses_MATLAB/Filtered_trajs_from_csv.m is a Matlab script used to separate combined trajectories files with multiple nuclear ROIs into individual filtered trajectory file, each within one nuclar ROI.
+
+   Advanced_Microrheology_analyses_MATLAB/GSER_complex_modulus.m is a Maltab script used to calculate complex modulus, including elastic modulus and viscous modulus, from the ensemble-time-averaged MSD for each condition.
+
+   Advanced_Microrheology_analyses_MATLAB/tpmsd.m is a Matlab script used to calculate two-point MSD using two-point microrheology method.
+
+   Velocity_autocorrelation_analyses_MATLAB folder analyzes the velocity autocorrelation of tracked particle trajectories. The main call function is "result_difusion_modi_Tong.m", which uses the output csv files of particles trajectories saved from FIJI plugin 'Mosaic'. The outputs of this main call function include "tracked_..." files. These files are the inputs for the function of "Velocity_correlation.m", which calculates the normalized velocity autorrelation for the trajectories.
