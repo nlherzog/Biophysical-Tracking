@@ -23,9 +23,17 @@ This is a repository of all code used for the analysis in Herzog et. al 2025 man
   
   combine_pre-post is a python script used to combine the pre-TFH and post-TFH images into one timelapse for artificial condensate analysis
   
-  further_GEMs is a python script used to extract angle distributions, step-size distributions, and alpha vs. logD plots from QC'd GEMSpa output (based on scripts from David Duran)
+  further_GEMs is a python script used to extract angle distributions, step-size distributions, and alpha vs. logD plots from QC'd GEMSpa output for an individual experiment (based on scripts from David Duran)
+
+  joined is a python script that creates a filtered list of which trajectories from which batch-tracking files correspond to the ROIs identified in QC'd GEMSpa output for an individual experiment (this is needed for Advanced_Microrheology_analyses in MATLAB)
   
-  msd_vs_tau is a python script used to extract msd vs. tau plots on a particular group from QC'd GEMSpa output (based on scripts from David Duran)
+  msd_vs_tau is a python script used to extract msd vs. tau plots on a particular group from QC'd GEMSpa output for an individual experiment (based on scripts from David Duran)
+
+  Multiple_angles is a python script used to extract the angle distributions for each group across multiple GEM experiments
+
+  angle_dist_stats is a python script for statistical analysis of angle distribution output from Multiple_angles
+
+  Multiple_ss is a python script used to extract the step size distributions for each group across multiple GEM experiments
   
   Multiple_a-logD is a python script used to generate .csvs and preliminary plots for alpha vs. logD as comparisons between groups across multiple experiments
   
@@ -43,7 +51,13 @@ This is a repository of all code used for the analysis in Herzog et. al 2025 man
   
   Artificial_Condensates_Multi is a python-based Jupyter notebook for analyzing multiple artificial condensate experiments, including graphing and statistical analysis
   
+  Artificial_Condensates_Multi_Coalescence is a python-based Jupyter notebook for analyzing multiple artificial condensate experiments whose TrackMate output includes coalescence, including graphing and statistical analysis
+  
   Graphing_Excel_Data is a python-based Jupyter notebook for analyzing pooled vRC formation from foci-counting outputs 
+
+  Multiple_angles_replot is a python-based Jupyter notebook for plotting the angle distributions of two specific groups from GEMSpa outputs of multiple experiments
+
+  Multiple_ss_replot is a python-based Jupyter notebook for plotting the step size distributions of two specific groups from GEMSpa outputs of multiple experiments
   
   ### Matlab scripts
   
